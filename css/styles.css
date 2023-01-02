@@ -1,0 +1,28 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #F8F4EA;
+}
+
+hr {
+    border-style: none;
+    border-bottom: 4px dotted #579BB1;
+    border-width: 7px;
+    width: 6%;
+}
+
+a, h1, h3, th {
+    color: #579BB1;
+    padding: 0 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li::before {
+    content: "\2022";
+    color: #579BB1;
+    font-weight: bold;
+    position: absolute;
+    left: 30px;
+}
